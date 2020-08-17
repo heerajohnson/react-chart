@@ -3,7 +3,8 @@ import Graph2 from "./pages/Graph2";
 import Graph1 from "./pages/Graph1";
 import Graph from "./pages/Graph";
 import Nav from "./Nav";
-import Footer from "./Footer";
+
+
 import { BrowserRouter as Router, Switch, Route,Link } from "react-router-dom";
 
 function App() {
