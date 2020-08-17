@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+* {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #231f20;
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  color: white;
+ 
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
+  background: #231f20;
+  color: white;
+}
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content{
+  position: absolute;
+  display: none;
+  right:0;
+  padding: 1rem;
+  list-style-type: none;
+  z-index: 1;
+  background-color: #203040;
+  margin:0;
+  margin-top:0.4rem;
+  width:100px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropbtn{
+  height:60px;
+  width:120px;
+}
